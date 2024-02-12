@@ -1,0 +1,27 @@
+{
+    "name": "the-alex-mark/figlet",
+    "version": "1.0",
+    "description": "Представление текста в виде рисунка ASCII",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Макаров Александр Михайлович",
+            "email": "the_alex_mark@mail.ru",
+            "homepage": "https://the-alex-mark.ru"
+        }
+    ],
+    "keywords": [ "figlet", "ascii" ],
+    "autoload": {
+        "psr-4": {
+            "ProgLib\\Figlet\\": "src/"
+        },
+        "files": [
+            "helpers/figlet.php"
+        ]
+    },
+    "require": {
+        "ext-ctype": "*"
+    }
+}
+
