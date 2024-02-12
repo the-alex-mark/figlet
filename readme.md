@@ -5,7 +5,7 @@
 ## Установка
 
 ```bash
-conpposer require the-alex-mark/figlet
+composer require the-alex-mark/figlet
 ```
 
 ## Использование
@@ -37,3 +37,7 @@ echo figlet('Hello World!', [ 'smushing' => FigletContract::SM_BIGX ]);
  / __  //  __// // // /_/ /    | |/ |/ // /_/ // /   / // /_/ //_/
 /_/ /_/ \___//_//_/ \____/     |__/|__/ \____//_/   /_/ \__,_/(_)
 ```
+
+## Дополнительная информация
+
+- [FIGlet](http://www.figlet.org)
